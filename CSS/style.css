@@ -15,6 +15,12 @@ h1{
     color: #085C11;
     line-height: 50px;
 }
+p{
+    font-size: 0.6rem;
+}
+h3{
+    color: #085C11;
+}
 .btn{
     background-color: #085C11;
     padding: 10px 25px;
@@ -117,10 +123,87 @@ header .right ul li a{
 /* Services section */
 #services{
     height: 100vh;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
     justify-content: center;
     padding: 10px 100px;
+    text-align: center;
+}
+#services .up{
+    height: fit-content;
+}
+#services .down{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    color: #fff;
+    height: fit-content;
 }
 .box{
     background-color: #085C11;
+    width: 220px;
+    height: 220px;
+    border-radius: 30px;
+    padding:  10px 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;   
+}
+.box img{
+    width: 70px;
+    height: 70px;
+    margin: auto;
+}
+.box .text{
+    display: grid;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+/* Reviews section */
+#reviews{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 100px;
+    margin-top: 70px;
+    gap: 30px;
+}
+#reviews .up{
+    display: grid;
+    gap: 20px;
+}
+#reviews .down{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+#reviews .down .boxes{
+    background-color: #fff;
+    border: 4px solid #085C11;
+    width: 220px;
+    height: 220px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding:  10px 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center; 
+}
+.boxes img{
+    width: 70px;
+    height: 70px;
+    margin: auto;
+}
+.boxes .text{
+    display: grid;
+    gap: 10px;
 }
