@@ -522,7 +522,7 @@ i:hover{
     #home{
         display: block;
         gap: 20px;
-        height: 110vh;
+        height: 80vh;
         padding: 0 20px;
     }
     #home .left{
@@ -563,7 +563,7 @@ i:hover{
 
 
     #about{
-        height: 100vh;
+        height: 50vh;
         display: block;
         padding: 0 20px;
     }
@@ -578,7 +578,7 @@ i:hover{
 
 
     #services{
-        height: 150vh;
+        height: 110vh;
         padding: 0 20px;
     }
     #services .down{
@@ -592,7 +592,7 @@ i:hover{
 
 
     #reviews{
-        height: 130vh;
+        height: 80vh;
         padding: 0 20px;
     }
     #reviews h1{
