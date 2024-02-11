@@ -532,6 +532,9 @@ i:hover{
     #home .right{
         width: 100%;
     }
+    #home .right img{
+        width: 100%;
+    }
     h1{
         font-size: 2rem;
         line-height: 45px;
