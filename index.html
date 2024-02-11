@@ -14,7 +14,15 @@
             <div class="logo"><h4>RENT</h4><span>HOMES</span></div>
         </div>
 
-        <div class="right">
+        <nav class="hamburger">
+            <div class="ham-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+
+        <div class="right nav-bar">
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About Us</a></li>
@@ -182,7 +190,16 @@
         </div>
     </footer>
 
+    <script>
+        const hamMenu = document.querySelector('.ham-menu');
 
+        hamMenu.addEventListener('click', () => {
+            hamMenu.classList.toggle("active")
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+            
+        })
+    </script>
 
 </body>
 </html>
