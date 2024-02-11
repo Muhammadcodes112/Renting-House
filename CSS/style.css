@@ -80,6 +80,7 @@ header .right ul li a{
 #home{
     height: 100vh;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 10px 100px;
 }
@@ -111,6 +112,7 @@ header .right ul li a{
 #about{
     height: 100vh;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 10px 100px;
 }
@@ -152,6 +154,7 @@ header .right ul li a{
 }
 #services .down{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
     color: #fff;
@@ -199,6 +202,7 @@ header .right ul li a{
 }
 #reviews .down{
     display: flex;
+    flex-wrap: wrap;
     gap: 40px;
     justify-content: center;
     align-items: center;
@@ -373,6 +377,43 @@ i:hover{
         height: 500px;
     }
 
+    #home{
+        padding: 1px 20px;
+    }
+    #home .left{ 
+        width: 70%;
+    }
+    #home .right{
+        margin-left: auto;
+    }
+    #home .right img{
+        width: 60%;
+    }
+    h1{
+        font-size: 1.9rem;
+    }
+    h6{
+        font-size: 0.6rem;
+    }
+
+    #about{
+        padding: 1px 20px;
+        gap: 10px;
+        margin-top: 200px; 
+    }
+    #services{
+        margin-top: 500px;
+    }
+    #reviews{
+        margin-top: 300px;
+    }
+    footer{
+        margin-top: 500px;
+    }
+    footer .up{
+        display: grid;
+        gap: 40px;
+    }
 }
 
 
@@ -385,7 +426,7 @@ i:hover{
 
 
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 650px){
     .hamburger{
         display: initial;
     }
