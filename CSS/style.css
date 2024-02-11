@@ -522,7 +522,7 @@ i:hover{
 
 
     #about{
-        height: 150vh;
+        height: 100vh;
         display: block;
         padding: 0 20px;
     }
@@ -543,7 +543,10 @@ i:hover{
     #services .down{
         display: grid;
     }
-
+    #services .down p{
+        color: #fff;
+        font-weight: normal;
+    }
 
 
 
