@@ -17,8 +17,10 @@ h1{
 }
 p{
     font-size: 0.6rem;
+    font-weight: 600;
+    color: #475C46;
 }
-h3{
+h3, h5{
     color: #085C11;
 }
 .btn{
@@ -28,15 +30,24 @@ h3{
     color: #fff;
     height: 45px;
     width: fit-content;
+    transition: .3s ease;
 }
 .btn2{
     border-radius: 50px;
     border: 1px solid #085C11;
     padding: 10px 25px;
     color: #085C11;
+    transition: .5s ease;
 }
-
-
+.btn:hover{
+    border: 1px solid #085C11;
+    color: #085C11;
+    background-color: #fff;
+}
+.btn2:hover{
+    background-color: #085C11;
+    color: #fff;
+}
 
 
 header{
@@ -52,6 +63,7 @@ header .right ul{
 }
 header .right ul li a{
     color:  #475C46;
+    font-size: 0.8rem;
 }
 
 
@@ -206,4 +218,57 @@ header .right ul li a{
 .boxes .text{
     display: grid;
     gap: 10px;
+}
+
+
+.logo{
+    color: #475C46;
+    display: flex;
+}
+
+
+
+
+footer{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 100px;
+    margin-top: 70px;
+    gap: 70px;
+}
+footer .up{
+    display: flex;
+    justify-content: space-between;
+}
+footer .up .one{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+footer .up .two, .three, .four{
+    display: grid;
+    gap: 15px;
+}
+footer .down{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+footer .down .left{
+    display: flex;
+    gap: 20px;
+}
+i{
+    color: #085C11;
+    border-radius: 50%;
+    border: 1px solid #085C11;
+    padding: 5px;
+    transition: .5s ease;
+    background-color: #EDFFEF;
+}
+i:hover{
+    color: #fff;
+    background-color: #085C11;
 }
