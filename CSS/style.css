@@ -534,6 +534,44 @@ i:hover{
         padding: 0 15px;
     }
 
+
+
+    #services{
+        height: 150vh;
+        padding: 0 20px;
+    }
+    #services .down{
+        display: grid;
+    }
+
+
+
+
+    #reviews{
+        height: 150vh;
+        padding: 0 20px;
+    }
+    #reviews h1{
+        font-size: 1.7rem;
+    }
+    #reviews .down{
+        display: grid;
+    }
+
+
+
+    footer{
+        height: 100vh;
+        padding: 0 20px;
+    }
+    footer .up{
+        display: grid;
+        gap: 20px;
+    }
+    footer .down{
+        display: grid;
+        gap: 20px;
+    }
 }
 
 
